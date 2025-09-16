@@ -1,0 +1,730 @@
+{
+  "Monday": {
+    "type": "Sano",
+    "meals": [
+      { "id": "greek-yogurt-berries",
+        "time": "Colazione",
+        "image":"/images/yogurt.jpg",
+        "name": "Yogurt greco con frutti di bosco",
+        "ingredients": [
+          "1 cup Yogurt greco",
+           "1/2 cup Frutti di bosco",
+            "1 cucchiaino Miele", 
+            "1 cucchiaino Mandorle tritate"
+          ],
+        "calories": 300,
+        "protein": 18,
+          "fats":10,
+          "carbs": 25
+      },
+      {
+        "time": "Snack",
+        "id":"apple-almond-butter",
+        "image":"/images/apple-butter.jpg",
+        "name": "Mela con burro di mandorle",
+        "ingredients": [
+          "1 Mela",
+           "1 cucchiaio Burro di mandorle"
+          ],
+        "calories": 180,
+        "protein": 4 ,
+        "fats":9,
+        "carbs":20
+      },
+      {
+        "id": "chicken-rice-broccoli",
+        "time": "Pranzo",
+        "name": "Pollo con riso e broccoli",
+        "image": "/images/chicken-rice.jpg",
+        "ingredients": [
+            "150g petto di pollo",
+            "1/2 tazza riso integrale",
+            "1 tazza broccoli"
+        ],
+        "calories": 550,
+        "protein": 40,
+        "fats": 15,
+        "carbs": 45
+    },
+    {
+      "id": "protein-smoothie",
+      "time": "Spuntino pomeridiano",
+      "name": "Smoothie proteico",
+      "image": "/images/protein-smoothie.jpg",
+      "ingredients": [
+          "1 misurino proteine in polvere",
+          "1 banana",
+          "1 tazza latte di mandorla",
+          "1 manciata spinaci"
+      ],
+      "calories": 250,
+      "protein": 22,
+      "fats": 5,
+      "carbs": 20
+  },
+  
+     { "id": "lentil-soup",
+                "time": "Cena",
+                "name": "Zuppa di lenticchie",
+                "image": "/images/lentil-soup.jpg",
+                "ingredients": [
+                    "1 tazza lenticchie",
+                    "1 tazza spinaci",
+                    "1/2 tazza pomodori a pezzetti",
+                    "1/4 cipolla"
+                ],
+                "calories": 480,
+                "protein": 25,
+                "fats": 10,
+                "carbs": 50
+            }
+          ]},
+          
+  "Tuesday": {
+    "type": "Sano",
+    "meals": [
+      {
+        "time": "Colazione",
+        "id":"Oat-flakes-banana-chia",
+        "image":"/images/fiocchi.jpg",
+        "name": "Fiocchi d'avena con banana e chia",
+        "ingredients": [
+          "50g Avena", 
+          "Banana", 
+          "1 cucchiaio Semi di chia",
+           "200ml Latte vegetale"
+          ],
+        "calories": 320,
+        "protein": 18,
+        "fats":10,
+        "carbs": 25
+      },
+      {
+        "time": "Snack",
+        "id":"carrot-hummus",
+        "image":"/images/carrot.jpg",
+        "name": "Carote con hummus",
+        "ingredients": [
+          " Carote",
+           "Hummus"
+          ],
+        "calories": 150,
+        "protein": 4 ,
+        "fats":9,
+        "carbs":20
+      },
+      {
+        "time": "Pranzo",
+        "id":"Salmone-quinoa-asparagi",
+        "name": "Salmone con quinoa e asparagi",
+        "image": "/images/salmone.jpg",
+        "ingredients": [
+          "Filetto di salmone fresco",
+           "80g Quinoa",
+            " 10 punte Asparagi",
+            "Olio extravergine di oliva (1 cucchiaio)",
+            "Limone (succo, facoltativo): per esaltare il gusto del salmone",
+            "Erbe aromatiche (rosmarino, prezzemolo o timo, a piacere)",
+            "Sale e pepe"
+          ],
+        "calories": 600,
+        "protein": 4 ,
+        "fats":9,
+        "carbs":20
+      },
+      { "id":"frutta-secca",
+        "time": "Spuntino pomeridiano",
+        "image": "/images/fruttaSecca.jpg",
+        "name": "Frutta secca mista",
+        "ingredients": [
+          "Mandorle",
+           "Noci", 
+           "Uvetta"
+          ],
+          "calories": 250,
+          "protein": 22,
+          "fats": 5,
+          "carbs": 20
+      },
+      { "id":"ceci-verdure",
+        "time": "Cena",
+        "image": "/images/ceciVerdure.jpg",
+        "name": "Insalata di ceci e verdure",
+        "ingredients": [
+          " 120g Ceci cotti  ",
+          "Peperoni rossi e gialli mezzo per tipo"
+
+          ,"Pomodori datterini o ciliegino circa 6–8"
+
+          ,"mezzo Cetriolo"
+
+          ,"1 cucchiaio Olio extravergine di oliva "
+
+          ,"1 cucchiaino Succo di limone "
+
+          ,"Prezzemolo fresco tritato"
+
+          ,"Sale e pepe","Ceci", "Peperoni", "Pomodori", "Cetriolo", "Olio EVO"],
+          "calories": 480,
+          "protein": 25,
+          "fats": 10,
+          "carbs": 50
+      },
+      { "id":"Kefir-frutti-rossi",
+        "time": "Snack serale",
+        "image":"/images/kefir.jpg",
+        "name": "Kefir con frutti rossi",
+        "ingredients": [
+                "150 ml Kefir naturale",
+                "100g Frutti rossi misti (mirtilli, lamponi, fragole)",
+                "1 cucchiaino Miele o sciroppo d'acero ",
+                "1 cucchiaino Semi di chia o lino "
+                    ],
+        "calories": 320,
+        "protein": 18,
+        "fats":10,
+        "carbs": 25
+      }
+    ]
+  },
+  "Wednesday": {
+    "type": "Alta Proteina",
+    "meals": [
+      {
+        "time": "Colazione",
+        "id":"toast-uova-avocado",
+        "image":"/images/toastIntegrale.jpg",
+        "name": "Toast integrale con uova e avocado",
+        "ingredients": [
+          "2 fette Pane integrale ",
+         "2 Uova",
+          "1/2 Avocado",
+          "1 cucchiaino Olio extravergine d'oliva",
+          "Sale e pepe: a piacere",
+          "Peperoncino o limone (facoltativi)"
+          ],
+        "calories": 350,
+        "protein": 4 ,
+        "fats":9,
+        "carbs":20
+      },
+      {
+        "time": "Spuntino mattutino",
+        "name": "Frullato proteico",
+        "id":"Frullato-proteico",
+        "image":"/images/Frullato.jpg",
+        "ingredients": [
+                "1 misurino Proteine in polvere",
+                 "200 ml  Latte", 
+                 "1 media Banana",
+                 "1 cucchiaino Burro di arachidi",
+                  "1 cucchiaino Semi di chia o lino",
+                  "Ghiaccio",
+                  "Cannella o vaniglia"
+                ],
+        "calories": 250,
+        "protein": 4 ,
+        "fats":9,
+        "carbs":20
+      },
+      {
+        "time": "Pranzo",
+        "id":"Tacchino-patate-spinaci",
+        "image": "/images/tacchino.jpg",
+        "name": "Tacchino con patate dolci e spinaci",
+        "ingredients": [
+                "150–200 g Fette di petto di tacchino ",
+                 " 1 media – circa 200 g Patate dolci",
+                  "1 manciata abbondante circa 100 g Spinaci freschi ",
+                  "1 spicchio Aglio ",
+                  "1 cucchiaio Olio extravergine d’oliva ",
+                  "Rosmarino o timo",
+                  "Sale e pepe"
+                ],
+        "calories": 570,
+        "protein": 4 ,
+        "fats":9,
+        "carbs":20
+      },
+      {
+        "time": "Spuntino pomeridiano",
+        "id":"Yogurt-greco-miele",
+        "image": "/images/YogurtMiele.jpg",
+        "name": "Yogurt greco con miele",
+        "ingredients": [
+              "Yogurt greco",
+               "Miele", 
+               "Noci"
+              ],
+        "calories": 220,
+        "protein": 4 ,
+        "fats":9,
+        "carbs":20
+      },
+      {
+        "time": "Cena",
+        "id":"Tofu-saltato-verdure",
+        "image": "/images/tofu.jpg",
+        "name": "Tofu saltato con verdure",
+        "ingredients": [
+                "200g Tofu compatto", 
+                "1 media Zucchine",
+                 "½ rosso + ½ giallo Peperoni",
+                 "1 piccola Carota",
+                  "1–2 cucchiai Salsa di soia",
+                  "cucchiaio Olio di sesamo",
+                  "1 spicchio Aglio tritato",
+                  "½ cucchiaino Zenzero fresco grattugiato",
+                  "Semi di sesamo"],
+        "calories": 480,
+        "protein": 4 ,
+        "fats":9,
+        "carbs":20
+      },
+      {
+        "time": "Snack serale",
+        "id":"Cioccolato-fondente",
+        "name": "Cioccolato fondente 80%",
+        "image":"/images/CioccolatoFondente.jpg",
+        "ingredients": ["Cioccolato fondente"],
+        "calories": 100,
+        "protein": 4 ,
+        "fats":9,
+        "carbs":20
+      }
+    ]
+  },
+  "Thursday": {
+    "type": "Sano",
+    "meals": [
+      { "id":"Porridge-mela-cannella",
+        "time": "Colazione",
+        "image": "/images/porridge.jpg",
+        "name": "Porridge con mela e cannella",
+        "ingredients": [
+          "50 g Fiocchi d’avena",
+         "1 Mela (tagliata a cubetti)",
+          "½ cucchiaino Cannella in polvere", 
+          "1 cucchiaio Miele",
+          "1 cucchiaio Semi di chia ",
+          "1 cucchiaio Noci",
+          "250 ml Latte vegetale"],
+        "calories": 310,
+        "protein": 4 ,
+        "fats":9,
+        "carbs":20
+      },
+      { "id":"mandrole",
+        "time": "Spuntino mattutino",
+        "name": "Mandorle",
+        "image":"/images/mandrole.jpg",
+        "ingredients": ["Mandorle"],
+        "calories": 150,
+        "protein": 4 ,
+        "fats":9,
+        "carbs":20
+      },
+      {
+        "time": "Pranzo",
+        "id":"Insalata-quinoa-fagioli-neri",
+        "image":"/images/quinoa.jpg",
+        "name": "Insalata di quinoa e fagioli neri",
+        "ingredients": [
+              "100g Quinoa",
+               "120g Fagioli neri", 
+               "60g Mais",
+                "1 medio o 100g Pomodori a cubetti",
+              "½ Peperone rosso (tagliato a dadini)",
+              "1/4 Cipolla rossa (tritata finemente)",
+              "Prezzemolo fresco",
+            "1 cucchiaio limone",
+            "1 cucchiaio Olio",
+            "Sale e pepe"
+          ],
+          "calories": 450,
+        "protein": 4 ,
+        "fats":9,
+        "carbs":20
+      },
+      {"id":"Macedonia-frutta",
+        "time": "Spuntino pomeridiano",
+        "image":"/images/FruitSalad.jpg",
+        "name": "Macedonia di frutta",
+        "ingredients": [
+          "5-6Fragole",
+        "1/2Mela",
+        "1/2 Banana",
+        "1 Kiwi" ,
+        "1 manciata Uva",
+        "2 cucchiai Succo d’arancia fresco",
+       "1 cucchiaino Succo di limone" ,
+        "Menta fresca" 
+      ],
+      "calories": 150,
+      "protein": 4 ,
+      "fats":9,
+      "carbs":20
+      },
+      {
+        "time": "Cena",
+        "id":"Pollo-forno-cavolfiore",
+        "image":"/images/pollo.jpg",
+        "name": "Pollo al forno con cavolfiore",
+        "ingredients": [
+            "150g Pollo", 
+            "1/2 Cavolfiore",
+            "2 cucchiai olio ",
+            "1 spicchio Aglio ",
+            "Rosmarino fresco",
+            "Sale e pepe nero",
+            "Succo di limone",
+            "1 cucchiaino Paprika dolce"
+             ],
+        "calories": 500,
+        "protein": 4 ,
+        "fats":9,
+        "carbs":20
+      },
+      {
+        "time": "Snack serale",
+        "id":"riccotta-miele",
+        "image":"/image/riccotta.jpg",
+        "name": " Riccotta con Miele",
+        "ingredients": [
+          "100–120 g Ricotta",
+         "1–2 cucchiaini Miele"],
+        "calories": 130,
+        "protein": 4 ,
+        "fats":9,
+        "carbs":20
+      }
+    ]
+  },
+  "Friday": {
+    "type": "Alta Proteina",
+    "meals": [
+      {
+        "time": "Colazione",
+        "id":"Uova-strapazzate-spinaci",
+        "image":"/images/Uova-strapazzate-spinaci.jpg",
+        "name": "Uova strapazzate con spinaci",
+        "ingredients": [
+            "2-3Uova",
+            "50–70 g Spinaci",
+            "Pane integrale",
+            "1 cucchiaio olio",
+            "Sale e pepe "],
+        "calories": 340,
+        "protein": 4 ,
+        "fats":9,
+        "carbs":20
+      },
+      {
+        "time": "Spuntino mattutino",
+        "id":"Banana-burro-arachidi",
+        "image":"/images/Banana-burro-arachidi.jpg",
+        "name": "Banana e burro di arachidi",
+        "ingredients": [
+              "Banana", 
+              "Burro di arachidi",
+              "toast integrale"
+            ],
+        "calories": 200,
+        "protein": 4 ,
+        "fats":9,
+        "carbs":20
+      },
+      {
+        "time": "Pranzo",
+        "id":"Bistecca-verdure-grigliate",
+        "image":"/images/Bistecca.jpg",
+        "name": "Bistecca con verdure grigliate",
+        "ingredients": [
+          " 150–180 g Bistecca magra",
+           "1 media Zucchine",
+            "½ rosso + ½ giallo Peperoni",
+            "Melanzane",
+            "1 cucchiaio olio",
+            "Rosmarino fresco",
+            "sale e pepe"
+          ],
+        "calories": 620,
+        "protein": 4 ,
+        "fats":9,
+        "carbs":20
+      },
+      {
+        "time": "Spuntino pomeridiano",
+        "name": "Yogurt proteico",
+        "id":"Yogurt-proteico",
+        "image":"/images/Yogurt-proteico.jpg",
+        "ingredients": [
+            "Yogurt ad alto contenuto proteico",
+            "1 cucchiaino di miele",
+            "mandorla tritata",
+            "mirtilli, fragole"
+          ],
+          "calories": 150,
+          "protein": 4 ,
+          "fats":9,
+          "carbs":20
+      },
+      {
+        "time": "Cena",
+        "id":"Riso-basmati-salmone",
+        "image":"/images/risobasmati.jpg",
+        "name": "Riso basmati con salmone",
+        "ingredients": [
+            "2 filetti Salmone",
+           "200 g Riso basmati",
+           "1 cucchiaio olio d'oliva",
+           "1 cipolla piccola tritato",
+           "1 spicchio di aglio tritato",
+           "1 cucchiaio  salsa di soia",
+           "Succo di limone",
+           "Sale e pepe ",
+           "prezzemolo ",
+           "1 cucchiaino zenzero fresco grattugiato",
+           "150-200 g Fagiolini"],
+        "calories": 510,
+        "protein": 4 ,
+        "fats":9,
+        "carbs":20
+      },
+      { "id":"Frutta-fresca",
+      "image":"/images/Frutta-fresca.jpg",
+        "time": "Snack serale",
+        "name": "Frutta fresca",
+        "ingredients": [
+            "Fragole", 
+            "Frutta di bosco"
+          ],
+        "calories": 110,
+        "protein": 4 ,
+        "fats":9,
+        "carbs":20
+      }
+    ]
+  },
+  "Saturday": {
+    "type": "Sano",
+    "meals": [
+      {  "id":"Pancake-proteici",
+        "time": "Colazione",
+        "image":"/images/Pancake.jpg",
+        "name": "Pancake proteici",
+        "ingredients": [ 
+            "2 Uova", 
+            "30 g polvere",
+            "40g Avena",
+            "1 cucchiaino  lievito per dolci",
+            "1 pizzico  cannella",
+            "50 ml  latte ",
+            "Un filo d’olio di cocco",
+             "1 Banana"
+            ],
+        "calories": 330,
+        "protein": 4 ,
+        "fats":9,
+        "carbs":20
+      },
+      { "id":"Macedonia",
+      "image":"/images/Macedonia.jpg",
+        "time": "Spuntino mattutino",
+        "name": "Macedonia",
+        "ingredients": [
+            "2 mele",
+            "2 banane",
+            "2 kiwi",
+            "1 pera",
+            "1 grappolo  uva",
+            "1 fetta  melone ",
+            "2 arance",
+            "Succo di 1 limone",
+            "1 cucchiaino miele",
+            "Foglioline menta"
+          ],
+        "calories": 160,
+        "protein": 4 ,
+        "fats":9,
+        "carbs":20
+      },
+      { "id":"Wrap-pollo-verdure",
+        "time": "Pranzo",
+        "image":"/images/Wrap-pollo-verdure.jpg",
+        "name": "Wrap di pollo con verdure",
+        "ingredients": [
+            "2Tortilla integrale",
+             "200 g petto Pollo  (grigliato)",
+             "1 carota tagliata",
+             "1 zucchina tagliata ",
+            " 1/2 peperone rosso tagliato",
+            "4 foglie lattuga",
+            "2 cucchiai yogurt greco",
+            "1 cucchiaino salsa allo yogurt",
+            "Sale, pepe e olio ",
+            "Succo di limone"
+          ],
+        "calories": 520,
+        "protein": 4 ,
+        "fats":9,
+        "carbs":20
+      },
+      { "id":"Crackers-integrali-hummus",
+        "image":"/images/carrot.jpg",
+        "time": "Spuntino pomeridiano",
+        "name": "Crackers integrali e hummus",
+        "ingredients": [
+            "Crackers integrali",
+             "Hummus"
+            ],
+        "calories": 190,
+        "protein": 4 ,
+        "fats":9,
+        "carbs":20
+      },
+      { "id":"Risotto-funghi-piselli",
+        "image":"/images/Risotto-funghi-piselli.jpg",
+        "time": "Cena",
+        "name": "Risotto ai funghi e piselli",
+        "ingredients": [
+            "320g Riso",
+         "250g Funghi", 
+         "150g Piselli",
+          "1 cipolla piccola",
+          "1 spicchio d’aglio",
+          "1 L  brodo vegetale",
+          "3 cucchiai  olio ",
+          "30 g  burro",
+          "40 g parmigiano grattugiato",
+          "Sale e pepe",
+          "Prezzemolo fresco"
+        ],
+        "calories": 470,
+        "protein": 4 ,
+        "fats":9,
+        "carbs":20
+      },
+      { "id":"Yogurt-greco-frutta",
+        "time": "Snack serale",
+        "image":"/images/Yogurt-greco-frutta.jpg",
+        "name": "Yogurt greco con frutta",
+        "ingredients": [
+            "170g Yogurt greco",
+            "1 cucchiaio  granola",
+             "Frutta fresca",
+             "1 cucchiaino miele",
+             "Frutta secca"
+            ],
+        "calories": 150,
+        "protein": 4 ,
+        "fats":9,
+        "carbs":20
+      }
+    ]
+  },
+  "Sunday": {
+    "type": "Sano",
+    "meals": [
+      { "id":"Frullato-avena-frutta",
+        "image":"/images/Frullato-avena-frutta.jpg",
+        "time": "Colazione",
+        "name": "Frullato con avena e frutta",
+        "ingredients": [
+                "2-3 cucchiai Avena", 
+                "1 Banana",
+                 "Frutta a scelta", 
+                 "150ml Latte vegetale",
+                 "1 cucchiaio yogurt greco",
+                "1 cucchiaino  miele",
+                "vaniglia "
+              ],
+        "calories": 310,
+        "protein": 4 ,
+        "fats":9,
+        "carbs":20
+      },
+      { "id":"Noci-albicocche-secche",
+      "image":"/images/Noci-albicocche-secche.jpg",
+        "time": "Spuntino mattutino",
+        "name": "Noci e albicocche secche",
+        "ingredients": [
+            " 3-4 Noci", 
+            "4-5 Albicocche secche"
+          ],
+        "calories": 180,
+        "protein": 4 ,
+        "fats":9,
+        "carbs":20
+      },
+      { "id":"Pasta-integrale-pomodoro-tonno",
+        "image":"/images/Pasta-integrale-pomodoro-tonno.jpg",
+        "time": "Pranzo",
+        "name": "Pasta integrale con pomodoro e tonno",
+        "ingredients": [
+              "160g Pasta integrale",
+              "200ml  passata Pomodoro",
+              "160g Tonno",
+              "1 spicchio aglio ",
+              "Origano",
+               "2 cucchiai Olive",
+              "Sale e pepe"
+            ],
+        "calories": 560,
+        "protein": 4 ,
+        "fats":9,
+        "carbs":20
+      },
+      { "id":"Smoothie-frutta",
+      "image":"/images/Smoothie-frutta.jpg",
+        "time": "Spuntino pomeridiano",
+        "name": "Smoothie alla frutta",
+        "ingredients": [
+              "Fragole", "Banana", 
+              "1 cucchiaino  miele ",
+              "2 cucchiai yogurt greco",
+              "1 cucchiaino semi  chia",
+              "150 ml Latte vegetale",
+              "cubetti  ghiaccio"
+            ],
+        "calories": 200,
+        "protein": 4 ,
+        "fats":9,
+        "carbs":20
+      },
+      { "id":"Burger-vegetale-insalata",
+        "time": "Cena",
+        "image":"/images/Burger-vegetale-insalata.jpg",
+        "name": "Burger vegetale con insalata",
+        "ingredients": [
+            "Burger vegetale",
+           "2 manciate di misticanza o rucola",
+           "1 pomodoro a fette",
+           "1/2 avocado a fettine",
+           "Semi di zucca o girasole",
+            "1 cucchiaio limone"
+          ],
+        "calories": 500,
+        "protein": 4 ,
+        "fats":9,
+        "carbs":20
+      },
+      { "id":"Mela-forno-cannella",
+      "image":"/images/Mela-forno-cannella.jpg",
+        "time": "Snack serale",
+        "name": "Mela al forno con cannella",
+        "ingredients": [
+          "1 Mela",
+           "1/2 cucchiaino Cannella",
+          "1 pizzico  uvetta ",
+          "1 cucchiaino Succo di limone",
+          "una noce di burro"
+        ],
+        "calories": 120,
+        "protein": 4 ,
+        "fats":9,
+        "carbs":20
+      }
+    ]
+  }
+}

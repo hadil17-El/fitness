@@ -1,0 +1,153 @@
+.meal-detail {
+    max-width: 400px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 1rem;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    font-family: sans-serif;
+}
+.meal-img {
+    width: 100%;
+    height: auto;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+h2{
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+}
+h3 {
+    font-weight: 900;
+    font-family: sans-serif;
+    color: black;
+    width: 19rem;
+    bottom: 0.3rem;
+    right: 1rem;
+    position: relative;
+    margin: 5px;
+    font-style: italic; 
+}
+.nutrition-chart {
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-image: conic-gradient(
+        #ff7e67 0% 30%,
+        #6a5acd 30% 60%,
+        #0077ff 60% 100%
+    );
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: white;
+    font-size: 1.1rem;
+    text-align: center;
+}
+.nutrition-chart ul {
+    list-style: none;
+    padding: 0;
+}
+.nutrition-chart li {
+    margin-bottom: 0.3rem;
+    display: flex;
+    align-items: center;
+}
+.dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 0.5rem;
+}
+.protein {
+    background: #0077ff;
+}
+.fats {
+    background: #ff7e67;
+}
+.carbs{
+    background: #6a5acd;
+}
+.tabs{display: flex;
+margin: 1.5rem 0 1rem;
+}
+.tabs button {
+    flex: 1;
+    padding: 0.5rem;
+    background: #f0f0f0;
+    border: none;
+    border-radius: 10px 10px 0 0 ;
+    font-weight: bold;
+    cursor: pointer;
+}
+.tabs button.active {
+    background: black;
+    color: white;
+}
+.ingredients {
+    list-style: disc;
+    padding-left: 1.5rem;
+    margin-bottom: 1rem;
+}
+.add-btn {
+    width: 100%;
+    padding: 0.8rem;
+    color: white;
+    background: black;
+    border: none;
+    border-radius: 0.8rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.add-btn:hover {
+    background: #222;
+}
+.freccia {
+    background-color: transparent;
+    border: none;
+    border-radius: 50%;
+    right: 13rem;
+    position: relative;
+    height: auto;
+    color: #d4a0ff;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+.freccia:hover {
+    transform: scale(1.5);
+}
+@media(max-width: 425px){
+   .Meal-container .freccia {
+    right: 0%;
+    top: 3rem;
+}
+.meal-detail {
+    position: relative;
+    top: 3rem;
+}
+    .meal-card {
+    width: 84%;
+    /*  grid-template-columns: repeat(2,1fr);*/
+}
+.meal-card h3 {
+    display: flex;
+    height: 2rem;
+}
+
+.meal-detail {
+    max-width: 335px;
+    height: auto;
+}
+.meal-img {
+    width: 100%;
+    height: auto;
+}
+}

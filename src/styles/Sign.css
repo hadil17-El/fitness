@@ -1,0 +1,9 @@
+.freccia {
+    border-radius: 50%;
+    border: none;
+    background: transparent;
+    color: #8667eb;
+    font-size: 0rem;
+    right: 85%;
+    position: relative;
+}

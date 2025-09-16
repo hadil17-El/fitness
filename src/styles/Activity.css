@@ -1,0 +1,33 @@
+.Activity-block{
+    width: 815px;
+    height: 16rem;
+    position: relative;
+    background-color: white;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    bottom: 11rem;
+    left: 19px;
+    font-weight: 700;
+    font-style: italic;
+    color: black;
+    transition: background-color 0.3s, color 0.3s;
+}
+.Activity-block h3 {
+    position: relative;
+    bottom: 4rem;
+}
+.Activity-block.dark {
+    background-color: #2b2a6b;
+    color: #ffff;
+}
+@media(max-width: 425px) {
+    .Activity-block {
+    width: 322px;
+    bottom: -3rem;
+    left: 19px;
+}
+.Activity-block h3 { 
+    right: 0rem;
+}
+}

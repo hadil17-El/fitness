@@ -1,0 +1,99 @@
+.schedule-container {
+    padding: 20px;
+    border-radius: 10px;
+    /* width: 100%; */
+    max-height: 1111vh;
+    position: relative;
+ bottom: 13.8rem;
+    left: 19rem;
+    display: flex;
+    max-width: 560px;
+}
+.schedule-title {
+      font-weight: 900;
+    font-family: sans-serif;
+    font-style: italic;
+    margin-bottom: 21px;
+    display: flex;
+    width: 22%;
+    color: black;
+    position: relative;
+}
+
+.schedule-card{
+   background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 323px;
+    grid-template-columns: repeat(2, 1fr);
+    display: grid
+;
+    gap: 5px;
+    position: relative;
+    bottom: 2rem;
+}
+.schedule-card .activity-card {
+  background-color: #f5f5ff;
+  padding: 0.75rem;
+  border-radius: 8px;
+  margin-bottom: 0.5rem;
+  transition: background-color 0.3s;
+}
+
+.schedule-container.dark .activity-card {
+  background-color: #2b2a6b;
+}
+.activity {
+    font-size: 16px;
+    font-weight: bold;
+}
+.time {
+    color: #6c63ff;
+    font-weight: bold ;
+}
+.details {
+    font-size: 14px;
+    color: gray;
+}
+.swiper {
+    height: 26rem;
+    display: flex
+;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+.swiper-wrapper {
+    height: 20rem;
+}
+.swiper-slide {
+        justify-content: center;
+    display: flex
+;
+}
+@media(max-width: 425px) {
+    .schedule-container {
+    bottom: -2.2rem;
+    left: -6rem;
+}
+.schedule-title {
+    top: -3rem;
+    left: 5rem;
+}
+}
+
+/*
+inline-grid funziona solo se la griglia è piccola e parte di un testo.
+
+Ma nel tuo caso, hai una griglia grande → devi usare display: grid.
+.swiper-slide {
+    width: 100% !important;
+}
+Motivo: Questo assicura che ogni slide occupi tutta la larghezza disponibile e non venga tagliato.
+
+
+
+*/

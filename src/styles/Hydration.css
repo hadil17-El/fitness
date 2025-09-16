@@ -1,0 +1,83 @@
+.hydration-block {
+    padding: 20px;
+    border-radius: 10px;
+    text-align: right;
+    color: #333;
+    width: 349px;
+    height: 12rem;
+    position: relative;
+    top: -16.7rem;
+    left: 1rem;
+    margin-left: 8px;
+    background-color: white;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, color 0.3s;
+}
+.hydration-block.dark{
+    background-color: #2e2e3a;
+    color: #ffff;
+}
+.hydration-title {
+    font-weight: 900;
+    font-family: sans-serif;
+    color: black;
+    width: 7rem;
+    bottom: 3.3rem;
+    right: 1rem;
+    position: relative;
+    margin: 5px;
+    font-style: italic;
+}
+.hydration-block.dark {
+    background-color: #2b2a6b;
+    color: white;
+}
+.hydration-row {
+    bottom: 3rem;
+    position: relative;
+    width: auto;
+    height: 25px;
+    margin-bottom: 5px;
+}
+.day{
+    position: relative;
+    right: 20.3rem;
+    color: #b1a7ff;
+    font-size: 15px;
+}
+.hydration-bar {
+    width: 229px;
+    height: 7px;
+    background-color: #c3c0f39c;
+    overflow: hidden;
+    margin: 5px;
+    position: relative;
+    left: 2rem;
+    bottom: 1rem;
+}
+.hydration-bar .fill {
+    height: 100%;
+    background-color: #6c5ce7;
+}
+.amount {
+    color: #6c5ce7;
+    position: relative;
+    left: 0rem;
+    bottom: 2.3rem;
+}
+.unit{
+    position: relative;
+    left: 0.5rem;
+    font-weight: 600;
+    font-style: oblique;
+    bottom: 2.3rem;
+
+}
+@media(max-width: 425px) {
+    .hydration-block {
+        top: -1.7rem;
+    left: 0rem;
+    width: 333px;
+
+    }
+}

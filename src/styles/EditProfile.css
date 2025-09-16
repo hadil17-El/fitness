@@ -1,0 +1,89 @@
+.edit-container .freccia {
+        right: -8%;
+
+    top: 6rem;
+}
+
+.Edit-profile-container{
+    display: flex
+;
+    flex-direction: column;
+    position: relative;
+    flex-wrap: wrap;
+    left: 14rem;
+        border-radius: 1rem;
+    align-items: center;
+    margin-top: 8rem;
+    background-color: white;
+    flex: 0 0 20px;
+    min-width: 68vh;
+    min-height: 94vh;
+    width: 1px;
+    box-shadow: 1px 2px 21px #ccc;
+}
+.Edit-profile-container.dark {
+           background-color: #2c2c79;
+    color: #ffff;
+}
+.Edit-profile-header {
+    position: relative;
+    top: -1rem; 
+}  
+
+.profile-img{
+   width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+.Edit-profile-username{
+    font-weight: bold;
+    margin: 0 0 1rem 0;
+
+}
+form {
+    width: 79%;
+    display: flex
+;
+    flex-direction: column;
+    margin: 0 1rem 0 1rem;
+}
+input {
+        border-radius: 7px;
+    height: 2rem;
+    border: 1px solid black;
+    padding-left: 1rem;
+     color:  #949191;
+    background-color: #d4a0ff73;
+}
+.Edit-profile-btn {
+        position: relative;
+    top: 5rem;
+    width: 37vh;
+    height: 7vh;
+    right: -3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border: 2px solid #6c5ce7;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+.Edit-profile-btn:hover {
+    background-color: #6c5ce7;
+    color: white;
+}
+
+@media(max-width: 425px) {
+    .Edit-profile-container {
+    left: 1rem;
+    min-width: 71vh;
+    min-height: 114vh;
+    width: 13px;
+    }
+    .Edit-profile-btn {
+    top: 6rem;}
+}

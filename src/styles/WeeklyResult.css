@@ -1,0 +1,40 @@
+.weekly-result-block {
+    background-color: #ffffff ;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    width: 299px;
+    height: 11.9rem;
+    left: 31rem;
+    bottom: 49.7rem;
+    margin-left: 8px;
+    position: relative;
+    transition: background-color 0.3s , color 0.3s;
+}
+.weekly-result-block.dark {
+    background-color: #2b2a6b;
+    color: #ffffff;
+}
+
+.week-title{
+    font-weight: 900;
+    font-family: sans-serif;
+    color: black;
+    width: 10rem;
+    bottom: 3.3rem;
+    right: 1.4rem;
+    position: relative;
+    margin: 5px;
+    font-style: italic;
+}
+.recharts-wrapper {
+    position: relative;
+    right: 2rem;
+    bottom: 1rem;
+}
+@media (max-width: 425px) {
+    .weekly-result-block {
+    left: 0.5rem;
+    bottom: -9.3rem;
+}
+}

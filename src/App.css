@@ -1,0 +1,58 @@
+/* Tema chiaro */
+.light-mode {
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+/* Tema scuro */
+.dark-mode {
+  background-color: #191847;
+  color: white;
+}
+
+.content {
+background-color: #f0effd;
+  width: 100%;
+      width: 100%;
+    min-height: 199vh;
+    height: auto;
+     flex: 1;
+}
+.access-page-body {
+  height: 100vh;
+  overflow: hidden;
+}
+.main-layout {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  overflow: hidden;
+}
+.side-menu {
+  width: 250px;
+}
+
+.user-health-panel {
+  width: 250px;
+}
+.hamburger-btn {
+display: none;
+}
+@media(max-width: 425px) {
+  .hamburger-btn {
+  display: flex;
+   position: relative;
+    left: 0.5rem;
+    z-index: 50;
+    height: 2rem;
+    top: 0.5rem;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    background: #562be4;
+}
+.main-layout {
+    min-height: 111rem;
+}
+}

@@ -1,0 +1,85 @@
+.workout-detail {
+ padding: 1rem;
+    background-color: white;
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 28rem;
+    border-radius: 3%;
+    border: 1px solid #d4a0ff;
+}
+ .workout-freccia {
+       background-color: transparent;
+    border: none;
+    border-radius: 50%;
+    right: -1rem;
+    position: relative;
+    height: auto;
+    top: 1rem;
+    color: #d4a0ff;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+.workout-freccia:hover {
+    transform: scale(1.5);
+}
+.workout-title {
+    margin: 1.5rem 1rem auto;
+    font-size: 1.5rem;
+    display: flex;
+}
+.circle-timer {
+    margin: 1rem auto;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 10px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: bold
+}
+.workout-detail p {
+    display: flex;
+}
+.controls {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+}
+.prec , .succ {
+    background-color: transparent;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+.prec:hover , .succ:hover {
+    transform: scale(1.5);
+}
+.pause-button {
+    background-color: black;
+    color: white;
+    padding: 0.5rem 1.5rem;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+.pause-button:hover {
+    background-color: white;
+    color: black;
+}
+@media(max-width:425px){
+    .workout-detail {
+    width: 77%;
+    left: 3.4rem;
+    top: 6rem;
+}
+.day-selector button {
+    margin: 9px 9px;
+}
+}

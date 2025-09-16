@@ -1,0 +1,42 @@
+{
+    "user": {
+    "id": 1,
+    "name": "Maria Rossi",
+    "email": "maria@example.com",
+    "password": "123456",      
+    "phone":"12345678900",
+    "age": 30,
+    "weight": 75,
+    "bloodSugar":90 ,
+    "vitaminD": 30,
+    "height": 180,
+    "goal": "dimagrimento",
+    "photo":"/images/profile.png"
+  }, "weeklyResults": [
+        {"day": "Mo", "eaten": 1800, "burned": 1200},
+        {"day": "Tu", "eaten": 2200, "burned": 1500},
+        {"day": "We", "eaten": 2000, "burned": 1300},
+        {"day": "Th", "eaten": 1700, "burned": 1600},
+        {"day": "Fr", "eaten": 2500, "burned": 1000},
+        {"day": "Sa", "eaten": 2300, "burned": 1400},
+        {"day": "Su", "eaten": 2100, "burned": 1300}
+  ],
+  "hydration": [
+        { "day": "Mo", "amount": 1900},
+        { "day": "Tu", "amount": 2200 },
+        { "day": "We", "amount": 1950 },
+        { "day": "Th", "amount": 1803 },
+        { "day": "Fr", "amount": 1675 },
+        { "day": "Sa", "amount": 1741 },
+        { "day": "Su", "amount": 869 }
+  ],
+  "activity": [
+  {"day": "Mo", "thisWeek": 5, "lastWeek": 0},
+  {"day": "Tu", "thisWeek": 8, "lastWeek": 7},
+  {"day": "We", "thisWeek": 9, "lastWeek": 12},
+  {"day": "Th", "thisWeek": 7, "lastWeek": 8},
+  {"day": "Fr", "thisWeek": 11, "lastWeek": 10},
+  {"day": "Sa", "thisWeek": 0, "lastWeek": 15},
+  {"day": "Su", "thisWeek": 15, "lastWeek": 5}
+  ]
+}

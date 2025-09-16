@@ -4,6 +4,10 @@
 
 Un'applicazione front-end sviluppata con **React**, pensata per gestire workout, esercizi e categorie di allenamento.
 L'obiettivo è offrire un'interfaccia semplice e intuitiva per organizzare i tuoi allenamenti.
+
+## 🚀 Demo
+
+👉 [Provalo qui] (https://fitness-1jse.vercel.app/)
 ## ✨ Funzionalità
 
 - 🔍 Ricerca workout (barra di ricerca animata)
